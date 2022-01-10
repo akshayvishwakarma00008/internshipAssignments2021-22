@@ -1,3 +1,5 @@
+// program to count occurances of each digit
+
 #include<stdio.h>
 
 void occurances(int *a,int num){
