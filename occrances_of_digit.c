@@ -2,9 +2,11 @@
 
 #include<stdio.h>
 
-void occurances(int *a,int num){
+void occurances(int *a,int num)
+{
     int i,r;
-    while(num>0){
+    while(num>0)
+    {
 
         r = num%10;
         a[r]= a[r]+1;  //incrementing the value array index by 1 where default value is 0;
@@ -12,14 +14,16 @@ void occurances(int *a,int num){
     }
 
     printf("occurances of the digits\n");
-    for(i=0;i<10;i++){
+    for(i=0;i<10;i++)
+    {
         printf("%d-->%d\n",i,a[i]);
     }
 
 
 }
 
-int main(){
+int main()
+{
     int a[10]={0},i;
     //int i,j,cnt=0;
     long int num,r;
