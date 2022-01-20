@@ -173,17 +173,4 @@ int main()
         
     }
 
-
-    
-     
-    //books akshay = {.info="hello",.id=1};
-    // books aman = {.info="aman",.id=2};
-    // insert(&akshay);
-    // insert(&aman);
-    
-
-    
-    //display();
-    
-
 }
