@@ -1,5 +1,5 @@
 //word frequency 
-text = "twinkle twinkle little star how i wonder what your are"; 
+text = "twinkle twinkle little star how i wonder what you are"; 
 
 let freq = {};
 let word = text.split(" ");
