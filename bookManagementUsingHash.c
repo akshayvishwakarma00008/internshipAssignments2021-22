@@ -120,7 +120,7 @@ int main()
 
     while(1){
 
-        printf("*************************BOOK MANAGEMANT SYSTEM***********************************\n\n");
+        printf("BOOK MANAGEMANT SYSTEM\n\n");
         printf("1.Enter book name\n\n");
         printf("2.View all books in data base\n\n");
         printf("3.total books in database\n\n");
