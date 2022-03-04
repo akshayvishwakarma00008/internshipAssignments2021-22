@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-areas: 
+                "header header header"
+                "div div div"
+                "footer footer footer";
+                grid-template-rows: 10% 80% 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+                height: 100vh;
+                
+                margin: 0;
+            }
+            .grid > div{
+                margin: 5px;
+                background-color: rgb(143, 136, 145);
+                text-align: center;
+            
+            }
+            #mid{
+                display: grid;
+                grid-template-columns:30% 1fr;
+                grid-template-rows: 60% 1fr;
+                
+            }
+            #mid>div{
+                margin: 5px;
+                background-color:rgb(106, 106, 122);
+                text-align: center;
+            }
+            #left{
+                display: grid;
+                grid-template-columns:1fr;
+                grid-template-rows: 1fr 1fr;
+                
+            }
+            #left>div{
+                margin: 5px;
+                background-color:rgb(106, 106, 122);
+                text-align:center;
+            }
+            #header{
+                grid-area: header;
+            }
+            header{
+                background-color: rgb(223, 80, 55);
+                text-align: center;
+            }
+            #footer{
+                grid-area: footer;
+            }
+            footer{
+                background-color: rgb(223, 89, 41);
+                text-align: center;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="grid">
+            <header id="header">1</header>
+            <div id="left">
+                <div>2.1</div>
+                <div>2.2</div>
+            </div>
+            <div id="mid">
+                <div>3.1</div>
+                <div>3.2</div>
+                <div>3.3</div>
+                <div>3.4</div>
+            </div>
+            <div>4</div>
+            <footer id="footer">5</footer>
+            
+        </div>
+    </body>
+</html>

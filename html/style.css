@@ -1,0 +1,187 @@
+body {
+            display: block;
+            margin: 0px;
+            border-radius: 5px;
+        }
+
+        div.navbar {
+            display: block;
+            background-color: #111;
+        }
+
+        ul {
+            margin-block-start: 0;
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color:gold;
+        }
+
+        input {
+            margin-top: 0px;
+            border-radius: 5px;
+            width: 140px;
+            height: 25px;
+            border: 2px solid rgb(248, 240, 240);
+        }
+
+        button {
+            border: 1px solid rgb(230, 224, 224);
+            background-color: snow;
+            border-radius: 5px;
+            height: 30px;
+        }
+        button:hover{
+            background-color: gold;
+            cursor:pointer;
+        }
+        .button-right{
+            margin-left: 15px;
+        }
+
+        .navbutton {
+            margin-top: 8px;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .navbar-right {
+            float: right;
+        }
+
+        .flex-container {
+            display: flex;
+
+        }
+
+        .flex-container>div {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+        }
+
+        tr {
+           
+            height: 40px;
+        }
+        .hover:hover{
+            background-color: gold;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 250px;
+            border-radius: 5px;
+            box-shadow: 0 0 0 5px snow;
+            font-family: 'Zen Kurenaido', sans-serif;
+            font-size: 15px;
+        }
+
+        .flex-container-mid {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .flex-container-mid>div {
+            border: rgb(248, 241, 241);
+            margin: 10px;
+            box-shadow: 5px 5px snow;
+        }
+
+        div#top {
+            border-radius: 5px;
+            color: rgb(206, 27, 27);
+            width: 696px;
+            font-size: 20px;
+            background-color: rgb(240, 234, 234);
+            height: 45px;
+            text-align: left;
+            padding: 5px;
+            margin-top: 0px;
+        }
+
+        .flex-container-mid-child-1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-container-span {
+            font-family: 'Zen Kurenaido', sans-serif;
+            font-size: 20px;
+            height: 130px;
+            border: 2px solid rgb(248, 240, 240);
+            background-color: rgb(240, 234, 234);
+            text-align: center;
+            color: gray;
+
+        }
+        h1{
+            margin-top: 70px;
+            margin-left: 20px;
+            
+        }
+
+        h2 {
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        h5 {
+            margin-top: 50px;
+        }
+
+        p {
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+        .left-para{
+            border: 2px solid rgb(248, 240, 240);
+            height: 15px;
+            border-radius: 5px;
+            background-color: green;color: snow;
+            font-size: 12px;
+        }
+
+        .table-right-1>tr{
+            border: none;
+        }
+
+        .footer{
+            display: flex;
+            height: 350px;
+            margin-top: 60px;
+            background-color: rgb(240, 234, 234);
+            box-shadow: 5px 5px snow;
+        }
+        .footer-para{
+            margin-left: 40px;
+        }
+        .grid-class{
+            display: grid;
+            grid-template-columns: auto auto; 
+            padding: 0px;
+        }
+        .grid-item{
+            background-color: rgb(240, 234, 234);
+            border: 5px solid seashell;
+            padding: 20px;
+            font-size: 20px;
+            color: rgb(153, 158, 158);
+            text-align: center;margin: 5px 5px 5px 5px;
+        }
